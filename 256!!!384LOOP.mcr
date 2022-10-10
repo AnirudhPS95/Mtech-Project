@@ -13,8 +13,8 @@ $!READDATASET  '"C:\Users\Home\Desktop\RUN-RUN-RUN\1stCASE!!!!!ured3_ri.25_alpha
   INITIALPLOTTYPE = CARTESIAN2D
   VARNAMELIST = '"V1" "V2" "V3" "V4" "V5" "V6" "V7" "V8"'
 $!CREATERECTANGULARZONE 
-  IMAX = 256
-  JMAX = 384
+  IMAX = 128
+  JMAX = 128
   KMAX = 1
   X1 = -5
   Y1 = -4
