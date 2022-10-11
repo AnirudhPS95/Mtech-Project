@@ -50,7 +50,7 @@ a Macro script (Zone_extraction_macro.mcr).
 
 The Tecplot thus generates required files containing data and also the details. These details have to 
 be removed before the file can be read in python using pandas. For this code was written which is given in the
-_______ file
+remove_headings.py file
     It is to be noted that the above task was done seperately just for sake of convenience.
     
     
@@ -66,7 +66,7 @@ _______ file
  *************************Part 4***************************************************
  
  Next the main step is performed, which is training of the MD-CNN-AE. The python file having the full code is given in the
- python file ____________ . 
+ python file CCNN128avgmdcnn.py. 
  
  The Keras API has 9 default activation functions. All these activation functions were used for performing the training. 
  The result was analysed, mainly it being the error value. Based on that best performing activation was to be selected. 
