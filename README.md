@@ -7,8 +7,7 @@ Here the following two objectives are presented:
     
 
 
-**********************************************************************************
-************************DESCRIPTION***********************************************
+## Basic description
 
 The work done here was to extract for vortex induced vibtration periodic flow. 
 Specifications of flow: 
@@ -29,17 +28,14 @@ The tool used to extract modes for the data is Mode decomposition-CNN-AE, develo
 
 
 
-**********************************************************************************
-****************************Part 1************************************************
+## Part 1
 
 The raw data U and V velocity fields were given for training with MD-CNN-AE. Following files contain the 
 results for the work
 
 
 
-
-**********************************************************************************
-***************************Part 2*************************************************
+## Part 2
 
 As evident the results for above are very poor. The reconstruction error though low , the reconstruction 
 through the neural network is quiet poor. This was because the domain for flow field is quiet big and
@@ -54,16 +50,14 @@ remove_headings.py file
     It is to be noted that the above task was done seperately just for sake of convenience.
     
     
-***********************************************************************************
-**************************Part 3***************************************************
+## Part 3
  
  The average flow field has to be calculated. This is the zeroeth mode of the flow. Calculated using the code 
  given in file
  
  
  
- **********************************************************************************
- *************************Part 4***************************************************
+## Part 4
  
  Next the main step is performed, which is training of the MD-CNN-AE. The python file having the full code is given in the
  python file CCNN128avgmdcnn.py. 
